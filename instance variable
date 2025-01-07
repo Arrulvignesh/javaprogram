@@ -1,0 +1,26 @@
+package sundayproblems;
+
+public class Student {
+	    String name;
+	    String department;
+	    int age;
+ Student(String name, String department, int age) {
+	        this.name = name;
+	        this.department = department;
+	        this.age = age;
+	    }
+
+	    void displayDetails() {
+	        System.out.println("Student Name:" + name);
+	        System.out.println("Student Department:" + department);
+	        System.out.println("Student Age:" + age);
+	    }
+
+	    public static void main(String[] args) {
+	        Student student = new Student("arrul", "eee", 23);
+	        student.displayDetails();
+	    }
+	}
+
+
+
